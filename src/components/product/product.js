@@ -11,7 +11,7 @@ const Product = ({ product }) => {
                 <Text>{product.price}</Text>
                 {!product.inStock &&
                     <View>
-                        <Text style={styles.inStockTitle}>STOKTA YOK</Text>
+                        <Text style={styles.inStockTitle}>STOKTA YOK !</Text>
                     </View>
                 }
             </View>
